@@ -3,7 +3,7 @@ const express = require('express');
 const mysql = require('mysql');
 
 const app = express();
-app.use(express.json());  // ✅ Use Express built-in JSON parser
+app.use(express.json());  // Use Express built-in JSON parser
 
 // MySQL Database Connection
 const db = mysql.createConnection({
